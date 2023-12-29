@@ -1,8 +1,3 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128536736/13.1.8%2B)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E4940)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
 <!-- default file list -->
 *Files to look at*:
 
@@ -13,9 +8,6 @@
 * [Default2.aspx.cs](./CS/WebSite/Default2.aspx.cs) (VB: [Default2.aspx.vb](./VB/WebSite/Default2.aspx.vb))
 <!-- default file list end -->
 # ASPxGridViewExporter - How to show content document in a new tab
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e4940/)**
-<!-- run online end -->
 
 
 <p>To accomplish this tack I suggest you implement the following:</p><p>- Write PDF to the server with <a href="http://documentation.devexpress.com/#AspNet/DevExpressWebASPxGridViewExportASPxGridViewExporter_WritePdftopic">ASPxGridViewExporter.WritePdf</a>;</p><p>- Redirect to the new tab with custom <a href="http://msdn.microsoft.com/en-us/library/ms524309(v=vs.90).aspx">Response.Redirect</a> wrapper;</p><p>- Display the PDF on the page.<strong></strong></p><p><strong>See also:</strong><strong><br />
